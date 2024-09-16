@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #ebe3cd;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    /* padding: 0 58px; */
+    margin: 0 58px;
+}
+.container nav{
+    margin-top: 95px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-radius: 50px;
+    padding: 30px 72px;
+}
+.nav-links ul{
+    display: flex;
+    font-size: 18px;
+    gap: 75px;
+}
+.sign-btn button{
+    background: none;
+    color: #6bb99c;
+    border: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+
+}
+.banner{
+    margin-top: 128px;
+    .container{
+        position: relative;
+        display: flex;
+    }
+}
+.banner-txt{
+    max-width: 539px;
+}
+.banner-head{
+    font-size: 81.31px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+
+}
+.banner-info{
+    font-family: "Montserrat", sans-serif;
+    font-size: 29px;
+    margin-top: 32px;
+    font-weight: 500;
+}
+.banner-para{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight:bolder;
+}
+.banner-btn{
+    margin-top: 41px;
+    display: flex;
+}
+.explore-btn{
+    padding: 18px 42px;
+    background-color: #df571d;
+    display: inline-block;
+    border-radius: 999px;
+    a{
+        font-weight: bold;
+        font-size: 21.06px;
+    }
+}
+.menu-btn{
+    padding: 18px 42px;
+    display: inline-block;
+    background: none;
+    a{
+        font-weight: bold;
+        font-size: 21.06px;
+        color: black;
+    }
+
+}
+.banner-img{
+    position: relative;
+}
+.banner-img-container{
+    position: absolute;
+    left: 0;
+}
+.ill-img{
+    position: absolute;
+    top: 318px;
+    left: -130px;
+}
+.plant-img{
+    position: absolute;
+    left: -113px;
+    top: 473px;
+}
+.lamp-img{
+    position: absolute;
+    left: 500px;
+    top: -128px;
+}
+.window-1{
+    position: absolute;
+    z-index: -1;
+    top: 231px;
+    left: 172px;}
+.window-2{
+    position: absolute;
+    top: 231px;
+    left: 662px;
+    z-index: -1;
+}
+.book-sec{
+    padding-top: 258px;
+    button{
+        background: none;
+        border: none;
+        outline: none;
+        display: flex;
+        font-size: 21.06px;
+        font-weight: bold;
+    }
+}
+.date-time{
+    margin-top: 85px;
+    .container{
+        background-color: white;
+        border-radius: 50px;
+        padding: 45px 70px 42px 55px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+}
+.date{
+    .date-head{
+        font-size: 21.06px;
+        font-weight: bold;
+    }
+}
+.date-main, .time-main, .mail-main{
+    margin-top: 16px;
+    padding: 34px 59px 39px 39px;
+    background-color: #EEE4CD;
+    display: inline-block;
+    border-radius: 30px;
+    border: 1px solid rgb(0, 0, 0, 0.5);
+}
+.availability-btn{
+    button{
+        background: #6bb99b;
+        padding: 36px 38px 36px 43px;
+        margin-top: 31px;
+        border: none;
+        border-radius: 30px;
+        color: #ebe3cd;
+        font-size: 21.06px;
+    }
+}
+.fish-food{
+    .container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 160px;
+    }
+}
+.delicious{
+    color: #eaa73b;
+    font-size: 28.77px;
+    font-weight: 400;
+}
+.food-categories{
+    margin-top: 26px;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+
+}
+.fish-main{
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+}
+.fish-card{
+    text-align: center;
+    background-color: #f9f7ef;
+    max-width: 383px;
+    border-radius: 30px;
+    padding-top: 45px;
+    padding: 45px 35px 0 35px;
+}
+.fish-card-head{
+    font-family: "Playfair Display", serif;
+    font-size: 40.25px;
+    font-weight: 700;
+    margin-top: 37px;
+
+}
+.fish-card-info{
+    max-width: 315px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16.95px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.fish-know-more{
+    background-color: #df571d;
+    padding: 20px 40px;
+    max-width: 196px;
+    border-radius: 30px;
+    margin: 32px auto;
+}
+.covid{
+    /* overflow: hidden; */
+    margin-top: 229px;
+    position: relative;
+    .container{
+        text-align: center;
+    }
+}
+.covid-head{
+    font-family: "Montserrat", sans-serif;
+    columns: #6bb99c;
+    font-size: 28.77px;
+}
+.covid-p{
+    margin-top: 19px;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+
+}
+.covide-read-more{
+    margin-top: 17px;
+    padding: 20px 40px;
+    background-color: #6bb99b;
+    display: inline-block;
+    border-radius: 99px;
+    a{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20.83px;
+        color: #ebe3cd;
+    }
+}
+.table-img{
+    position: absolute;
+    left: -104px;
+    top: 0;
+}
+.table-img2{
+    position: absolute;
+    right: -104px;
+    top: 0;
+}
+.covid-img{
+    margin-top: 116px;
+}
+.table-img3{
+    z-index: -1;
+    position: absolute;
+    left: 128px;
+    bottom: 57px;
+
+}
+.table-img4{  
+    z-index: -1;
+    position: absolute;
+    right: 128px;
+    bottom: 57px;
+    
+}
+.story{
+    margin-top: 306px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.story-head{
+    font-size: 28.77px;
+    color: #eaa73b;
+    margin-top: 25px;
+}
+.story-left{
+    max-width: 360px;
+}
+.story-read-more{
+    padding: 20px 40px;
+    background-color: #FF5711;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 77px;
+}
+.story-description-head{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    margin-top: 29px;
+
+}
+.story-description{
+    margin-top: 29px;
+    font-size: 16.95px;
+    font-weight: bold;
+    word-spacing: 10px;
+    line-height: 30px;
+}
+.story-right{
+    position: relative;
+}
+.plant-2{
+    left: 71%;
+    position: absolute;
+    top: -34%;
+}
+.bottles{
+    left: -8%;
+    position: absolute;
+    top: -29%;
+}
+.ing-head{
+    color: #eaa73b;
+    font-size: 28.77px;
+}
+.ing-info-head{
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    margin: 31px 0 40px 0;
+}
+.ingredients{
+    margin-top: 130px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.ing-right{
+    max-width: 418px;
+}
+.ing-info{
+    font-size: 16.95px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.ing-read-more{
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #21BA9C;
+    display: inline-block;
+    border-radius: 99px;
+    a{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20.83px;
+        color: #ebe3cd;
+    }
+}
+.chef{
+    .container{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 101px 130px 52px 120px;
+        border-radius: 99px;
+    }
+}
+.chef-txt{
+    max-width: 360px;
+}
+.chef-head{
+    color: #6bb99c;
+    font-size: 28.77px;
+    margin-top: 80px;
+}
+.chef-info-head{
+    margin-top: 17px;
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.chef-info{
+    margin-top: 47px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.chef-read-more{
+    margin-top: 20px;
+    padding: 20px 40px;
+    background-color: #FF5711;
+    display: inline-block;
+    border-radius: 99px;
+    a{
+        font-family: "Montserrat", sans-serif;
+        font-size: 20.83px;
+        color: #ebe3cd;
+    }
+}
+.chef-img{
+    position: relative;
+}
+.spoon{
+    left: -8%;
+    top: 1%;
+    position: absolute;
+}
